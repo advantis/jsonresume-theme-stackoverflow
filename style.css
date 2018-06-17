@@ -705,6 +705,12 @@ ul.courses li:hover {
     .section header {
         padding-bottom: .15rem;
     }
+
+    .section header .date {
+        float: right;
+        padding: .2em;
+    }
+
     .section .location {
         padding-bottom: .15rem;
     }
