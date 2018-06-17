@@ -727,28 +727,19 @@ ul.courses li:hover {
     li {
         padding: 0;
     }
-    ul.keywords li,
     ul.courses li {
         margin: 0;
         padding: 0;
         font-size: .8rem;
         text-transform: lowercase;
     }
-    ul.keywords li::after,
     ul.courses li::after {
         padding: 0 0 0 .1rem;
         content: " |";
     }
-    ul.keywords::before,
     ul.courses::before {
         font-size: .8rem;
         font-weight: 600;
-    }
-    ul.keywords::before {
-        content: "Skills acquired: ";
-    }
-    #skills .keywords::before {
-        content: '';
     }
     .section p {
         margin: 0;
@@ -757,7 +748,6 @@ ul.courses li:hover {
     ul.courses::before {
         content: "Major courses: ";
     }
-    ul.keywords li:last-of-type::after,
     ul.courses li:last-of-type::after {
         content: "";
     }
