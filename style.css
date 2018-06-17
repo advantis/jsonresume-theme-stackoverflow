@@ -361,7 +361,7 @@ h2.section-title {
 .institution::before,
 .organization::before,
 .awarder::before {
-    content: "at "
+    content: "| "
 }
 
 .company,
@@ -693,7 +693,7 @@ ul.courses li:hover {
     .institution::before,
     .organization::before,
     .awarder::before {
-        content: "at ";
+        content: "| ";
     }
     .main-summary {
         padding: 2rem 0;
